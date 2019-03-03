@@ -34,11 +34,12 @@ body
 .logo
 {
 
+	position: relative;
 	transition: 1s all ease;
 	letter-spacing: 1px;
 	float: left;
 	color: #fff;
-	font-size: 22px;
+	font-size: 16px;
 	line-height: 80px;
 	padding: 0 6em;
 
@@ -46,6 +47,7 @@ body
 
 .menu
 {
+	position: relative;
 	transition: 1s all ease;
 	float: right;
 	line-height: 60px;
