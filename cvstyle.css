@@ -1,0 +1,154 @@
+html, body
+{
+	transition: 1s all ease;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body
+{
+	width: 100%;
+	height: 100vh;
+	background: url(https://upload.wikimedia.org/wikipedia/commons/6/69/Elegant_Background-17.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav
+{
+	transition: 1s all ease;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 80px;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.logo
+{
+	transition: 1s all ease;
+	letter-spacing: 1px;
+	float: left;
+	color: #fff;
+	font-size: 22px;
+	line-height: 80px;
+	padding: 0 6em;
+
+}
+
+.menu
+{
+	transition: 1s all ease;
+	float: right;
+	line-height: 60px;
+	margin: 0 6em;
+
+}
+
+.menu ul
+{
+	list-style: none;
+}
+
+.menu ul li
+{
+	display: inline-block;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: lighter;
+	padding: 0 20px;
+}
+
+.menu ul li a:hover,
+.menu ul li a.active
+{
+	transition: 1s all ease;
+	color: #00C4DB;
+	font-size:20px;
+
+}
+ul li:nth-child(4) a 
+{
+	color: #00C4DB;
+	border: 1px solid #00C4DB;
+	padding:10px 20px;
+	border-radius: 4px;
+
+}
+
+
+.header
+{
+	transition: 1s all ease;
+	position: absolute;
+	top: 32%;
+	left: 17%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.header h1
+{
+	
+	color: #fff;
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+
+.header p
+{
+	padding-left: 30%;
+	float: left;
+	color: #fff;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.pdf
+{
+	border: 1px solid rgba(0, 0, 0, .9);
+	width: 15%;
+	height: 30%;
+	background: rgba(105, 105, 105, .6);
+	position: absolute;
+	top: 20%;
+	left: 70%;
+	color: #000;
+	box-shadow: -20px 5px 50px rgba(0, 0, 0, .5);
+	transition: 1s all ease;
+}
+
+.pdf:hover
+{
+	transition: 0.7s all ease;
+	box-shadow: -20px 5px 50px rgba(0, 0, 0, .9)
+}
+
+.pdf h2
+{
+	font-size: 40px;
+	top: 50%;
+	left: 50%;
+	
+}
+
+
+
+
+
+
+
+
