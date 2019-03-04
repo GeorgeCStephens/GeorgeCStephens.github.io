@@ -181,6 +181,7 @@ ul li:nth-child(4) a
 {
 	body
 	{
+		width: 500px;
 		background: url(./ip5hs);
 	}
 	.logo
