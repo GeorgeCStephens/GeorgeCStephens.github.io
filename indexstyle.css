@@ -179,11 +179,8 @@ ul li:nth-child(4) a
 
 @media screen and (max-width: 500px) 
 {
-	body
-	{
-		width: 500px;
-		background: url(./ip5hs);
-	}
+	
+	
 	.logo
 	{
 		font-size: 10px;
