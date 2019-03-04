@@ -173,9 +173,10 @@ ul li:nth-child(4) a
 
 	.menu
 	{
-		
+		padding-bottom: 30px;
+		border-top: 2px solid #fff;	
 		position: absolute;
-		top:800%;
+		top:650%;
 	}
 
 	.menu ul li 
@@ -206,6 +207,16 @@ ul li:nth-child(4) a
 
 	}
 
+	.header 
+	{
+
+		padding-top: 10px;
+		top:37%;
+		width: 450px;
+		padding-left: 25px;
+		height: 50%;
+
+	}
 	.header p
 	{
 		font-size: 11px;

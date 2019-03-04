@@ -158,9 +158,9 @@ ul li:nth-child(4) a
 
 	.menu
 	{
-		
+		border-top: 2px solid #fff;
 		position: absolute;
-		top:700%;
+		top:650%;
 	}
 
 	.menu ul li 
@@ -204,6 +204,13 @@ ul li:nth-child(4) a
 		font-size: 0px;
 	}
 
+
+	.header 
+	{
+		top:37%;
+		height: 40%;
+		padding-bottom: 20px;
+	}
 	.header h1
 	{
 		font-size:14px;
@@ -211,7 +218,7 @@ ul li:nth-child(4) a
 
 	.header p
 	{
-		font-size: 11px;
+		font-size: 10px;
 	}
 	
 
