@@ -149,7 +149,7 @@ ul li:nth-child(4) a
 }
 
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 800px)
 {
 	.logo
 	{
@@ -225,6 +225,34 @@ ul li:nth-child(4) a
 }
 
 
+@media screen and (min-width: 800px) and (max-width: 1200px)
+{
+	.logo
+	{
+		font-size: 14px;
+	}
+	.menu ul li a
+	{
+		font-size: 14px;
+		padding:  0 0 100px;
+	}
+	.menu ul li a:hover,
+	.menu ul li a.active
+	{
+	transition: 1s all ease;
+	color: #00C4DB;
+	font-size:15px;
+
+	}
+
+	ul li:nth-child(4) a 
+	{
+	color: #00C4DB;
+	border: 2px solid #00C4DB;
+	padding:10px;
+	border-radius: 4px;
+
+	}
 
 
 
