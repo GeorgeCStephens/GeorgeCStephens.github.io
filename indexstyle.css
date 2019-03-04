@@ -9,7 +9,7 @@ html, body
 
 body
 {
-	min-width: 800px;
+	
 	width: 100%;
 	height: 100vh;
 	background: url(https://cdn-images-1.medium.com/max/2000/1*CFM9_VhPRrGG755enCmClw.jpeg);
@@ -133,7 +133,7 @@ ul li:nth-child(4) a
 
 
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 800px) and (min-width: 500px)
 {
 	.logo
 	{
@@ -177,6 +177,57 @@ ul li:nth-child(4) a
 
 }
 
+@media screen and (max-width: 500px) 
+{
+	.logo
+	{
+		font-size: 10px;
+	}
+
+	.menu
+	{
+		border-top: 2px solid #fff;
+		position: absolute;
+		top:500%;
+	}
+
+	.menu ul li 
+	{
+
+		display: run-in;
+	}
+	.menu ul li a
+	{
+		font-size: 6px;
+		padding: 0 0 0 0px;
+	}
+	.menu ul li a:hover,
+	.menu ul li a.active
+	{
+	transition: 1s all ease;
+	color: #00C4DB;
+	font-size:6px;
+
+	}
+
+	ul li:nth-child(4) a 
+	{
+	color: #00C4DB;
+	border: 2px solid #00C4DB;
+	padding:10px;
+	border-radius: 4px;
+
+	}
+
+	.header h1
+	{
+		font-size: 30px;
+	}
+	.header button
+	{
+		font-size: 10px;
+	}
+}
 @media screen and (min-width: 800px) and (max-width: 1200px)
 {
 	.logo
