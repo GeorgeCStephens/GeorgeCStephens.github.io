@@ -147,3 +147,53 @@ ul li:nth-child(4) a
 	width: 90px;
 	height: 90px;
 }
+
+
+@media screen and (max-width: 600px)
+{
+	.logo
+	{
+		font-size: 14px;
+	}
+
+	.menu
+	{
+		
+		position: absolute;
+		top:800%;
+	}
+
+	.menu ul li 
+	{
+
+		display: run-in;
+	}
+	.menu ul li a
+	{
+		font-size: 10px;
+		padding:  0 0 50px;
+	}
+	.menu ul li a:hover,
+	.menu ul li a.active
+	{
+	transition: 1s all ease;
+	color: #00C4DB;
+	font-size:10px;
+
+	}
+
+	ul li:nth-child(4) a 
+	{
+	color: #00C4DB;
+	border: 2px solid #00C4DB;
+	padding:10px;
+	border-radius: 4px;
+
+	}
+
+	.header h1
+	{
+		font-size: 14px;
+	}
+
+}

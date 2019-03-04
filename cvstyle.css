@@ -91,9 +91,14 @@ ul li:nth-child(4) a
 
 .header
 {
+
+	height: 60%;
+	box-shadow: -20px 5px 50px rgba(0, 0, 0, .5);
+	border: 1px solid rgba(0, 0, 0, .9);
+	background: rgba(105, 105, 105, .4);
 	transition: 1s all ease;
 	position: absolute;
-	top: 32%;
+	top: 45%;
 	left: 17%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -103,7 +108,6 @@ ul li:nth-child(4) a
 {
 	
 	color: #fff;
-	font-size: 40px;
 	font-weight: 400;
 	margin-bottom: 8px;
 }
@@ -113,7 +117,6 @@ ul li:nth-child(4) a
 	padding-left: 30%;
 	float: left;
 	color: #fff;
-	font-size: 25px;
 	font-weight: lighter;
 }
 
@@ -143,6 +146,75 @@ ul li:nth-child(4) a
 	top: 50%;
 	left: 50%;
 	
+}
+
+
+@media screen and (max-width: 600px)
+{
+	.logo
+	{
+		font-size: 14px;
+	}
+
+	.menu
+	{
+		
+		position: absolute;
+		top:700%;
+	}
+
+	.menu ul li 
+	{
+
+		display: run-in;
+	}
+	.menu ul li a
+	{
+		font-size: 10px;
+		padding:  0 0 50px;
+	}
+	.menu ul li a:hover,
+	.menu ul li a.active
+	{
+	transition: 1s all ease;
+	color: #00C4DB;
+	font-size:10px;
+
+	}
+
+	ul li:nth-child(4) a 
+	{
+	color: #00C4DB;
+	border: 2px solid #00C4DB;
+	padding:10px;
+	border-radius: 4px;
+
+	}
+
+	.pdf
+	{
+
+		height: 0px;
+		width: 0px;
+		border: 0px;
+	}
+
+	.pdf h2
+	{
+		font-size: 0px;
+	}
+
+	.header h1
+	{
+		font-size:14px;
+	}
+
+	.header p
+	{
+		font-size: 11px;
+	}
+	
+
 }
 
 
