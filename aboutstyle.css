@@ -356,5 +356,15 @@ ul li:nth-child(4) a
 
 	}
 
+	.header p
+	{
+		font-size: 14px;
+	}
+
+	.header h1
+	{
+		font-size: 17px;
+	}
+}
 
 
