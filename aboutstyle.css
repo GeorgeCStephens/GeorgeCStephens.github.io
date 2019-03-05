@@ -128,7 +128,7 @@ ul li:nth-child(4) a
 {
 	border: 1px solid rgba(0, 0, 0, .9);
 	width: 20%;
-	height: 40%;
+	height: 30%;
 	background: rgba(105, 105, 105, .4);
 	position: absolute;
 	top: 20%;
@@ -148,6 +148,7 @@ ul li:nth-child(4) a
 
 .quote p
 {
+
 	padding-right: 10px;
 	padding-left: 10px;
 	position: relative;
@@ -156,7 +157,7 @@ ul li:nth-child(4) a
 
 .quote h2
 {
-	top: -10%;
+	clear: both;
 	position: relative;
 	float: right;
 	padding-right: 15px;
@@ -245,7 +246,7 @@ ul li:nth-child(4) a
 
 }
 
-@media screen and (min-width: 500px) and (max-width: 800px;)
+@media screen and (min-width: 500px) and (max-width: 801px;)
 {
 	.logo
 	{
