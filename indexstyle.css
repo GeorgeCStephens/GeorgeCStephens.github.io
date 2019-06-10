@@ -1,262 +1,130 @@
-html, body
-{
-	min-width: 800px;
-	transition: 1s all ease;
+body, html{
+	height: 100%;
 	margin: 0;
-	padding: 0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+	transition: 2s all ease;
+	scroll-behavior: smooth;
+}
+
+.pimg1, .pimg2, .pimg3{
+	position: relative;
+	opacity: 0.60;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+
+}
+.pimg1{
+	background-image: url(https://thesociallit.com/wp-content/uploads/2017/12/stylish-idea-working-desk-decoration-organize-your-work-desk-mike-leonard.jpg);
+	min-height: 100vh;
 	width: 100%;
 }
 
-body
-{
-	
+.pimg2{
+	background-image: url(https://images.pexels.com/photos/9044/pexels-photo.jpg?cs=srgb&dl=city-dark-lights-9044.jpg&fm=jpg);
+	min-height: 500px;
 	width: 100%;
-	height: 100vh;
-	background: url(https://cdn-images-1.medium.com/max/2000/1*CFM9_VhPRrGG755enCmClw.jpeg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: table;
-	font-family: 'Montserrat', sans-serif;
+}
+
+.pimg3{
+	background-image: url(https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?cs=srgb&dl=architecture-buildings-city-220444.jpg&fm=jpg);
+	min-height: 500px;
+	width: 100%;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+	background-color: #ede9e3;
+}
+
+.section h2{
+	border-bottom: 3px;
+	border-color: #f9a513;
+}
+
+.ptext{
+	position: absolute;
+	top:50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 32px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	font-weight: 2px;
 }
 
 .nav
 {
 	transition: 1s all ease;
-	position: fixed;
+	float: right;
 	top: 0;
 	left: 0;
 	margin: 0;
-	padding: 0;
+	padding: 0px;
 	width: 100%;
 	height: 80px;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.7);
-}
-
-.logo
-{
-
-	position: relative;
-	transition: 1s all ease;
-	letter-spacing: 1px;
-	float: left;
-	color: #fff;
-	font-size: 18px;
-	line-height: 80px;
-	padding: 0 6em;
-
 }
 
 .menu
 {
-	position: relative;
-	transition: 1s all ease;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+
+}
+
+.menu ul 
+{
 	float: right;
-	line-height: 60px;
-	margin: 0 6em;
-
+	display: flex;
+	padding-right: 20px;
+	padding-top: 10px;
 }
 
-.menu ul
+.menu ul li 
 {
-	list-style: none;
+	float: right;
+	list-style: none; 
+	display: block;
+	padding: 0 0 0 50px;
+	font-weight: bold;
+	line-height: 50px;
 }
 
-.menu ul li
+.menu ul li img 
 {
-	display: inline-block;
+	width: 40px;
+	height:40px;
 }
 
-.menu ul li a
+.gotopbtn
 {
+	position: fixed;
+	width: 50px;
+	height: 60px;
+	bottom:40px;
+	right: 50px;
+
 	text-decoration: none;
-	color: #fff;
-	font-size: 16px;
-	font-weight: lighter;
-	padding: 0 20px;
-}
-.menu ul li a:hover,
-.menu ul li a.active
-{
-	transition: 1s all ease;
-	color: #00C4DB;
-	font-size:20px;
-
-}
-ul li:nth-child(4) a 
-{
-	color: #00C4DB;
-	border: 2px solid #00C4DB;
-	padding:10px 20px;
-	border-radius: 4px;
-
-}
-
-
-.header
-{
-	transition: 1s all ease;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	text-align: center;
+	line-height: 50px;
+	color: #666;
+	opacity: 0.70;
+	font-size: 45px;
 }
 
-.header h1
+.gotopbtn:hover,
+.gotopbtn.active
 {
-
-	color: #fff;
-	font-size: 40px;
-	font-weight: 800px;
-	margin-bottom: 8px;
-}
-
-.header a button
-{
-	border: 1px solid #fff;
-	color: #fff;
-	background: #00C4DB;
-	padding: 18px 38px;
-	font-size: 14px;
-	margin: 40px;
+	color: #ffb619;
 	transition: 1s all ease;
-}
-
-
-.header a button:hover
-{
-	border: 2px solid #fff;
-	box-shadow: -20px 5px 50px rgba(0, 0, 0, .9)
-
-}
-
-
-
-@media screen and (max-width: 800px) and (min-width: 500px)
-{
-	.logo
-	{
-		font-size: 14px;
-	}
-
-	.menu
-	{
-		border-top: 2px solid #fff;
-		position: absolute;
-		top:650%;
-	}
-
-	.menu ul li 
-	{
-
-		display: run-in;
-	}
-	.menu ul li a
-	{
-		font-size: 9px;
-		padding: 0 0 0 0px;
-	}
-	.menu ul li a:hover,
-	.menu ul li a.active
-	{
-	transition: 1s all ease;
-	color: #00C4DB;
-	font-size:9px;
-
-	}
-
-	ul li:nth-child(4) a 
-	{
-	color: #00C4DB;
-	border: 2px solid #00C4DB;
-	padding:10px;
-	border-radius: 4px;
-
-	}
-
-}
-
-@media screen and (max-width: 500px) 
-{
-	
-	
-	.logo
-	{
-		font-size: 10px;
-	}
-
-	.menu
-	{
-		border-top: 2px solid #fff;
-		position: absolute;
-		top:500%;
-	}
-
-	.menu ul li 
-	{
-
-		display: run-in;
-	}
-	.menu ul li a
-	{
-		font-size: 6px;
-		padding: 0 0 0 0px;
-	}
-	.menu ul li a:hover,
-	.menu ul li a.active
-	{
-	transition: 1s all ease;
-	color: #00C4DB;
-	font-size:6px;
-
-	}
-
-	ul li:nth-child(4) a 
-	{
-	color: #00C4DB;
-	border: 2px solid #00C4DB;
-	padding:10px;
-	border-radius: 4px;
-
-	}
-
-	.header h1
-	{
-		font-size: 30px;
-	}
-	.header button
-	{
-		font-size: 10px;
-	}
-}
-@media screen and (min-width: 800px) and (max-width: 1200px)
-{
-	.logo
-	{
-		font-size: 14px;
-	}
-	.menu ul li a
-	{
-		font-size: 14px;
-		padding:  0 0 100px;
-	}
-	.menu ul li a:hover,
-	.menu ul li a.active
-	{
-	transition: 1s all ease;
-	color: #00C4DB;
-	font-size:15px;
-
-	}
-
-	ul li:nth-child(4) a 
-	{
-	color: #00C4DB;
-	border: 2px solid #00C4DB;
-	padding:10px;
-	border-radius: 4px;
-
-	}
-
 }
