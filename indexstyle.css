@@ -84,17 +84,15 @@ body, html{
 
 .menu ul 
 {
-	float: right;
-	display: flex;
-	padding-right: 20px;
+	float: left;
+	padding-right: 0px;
 	padding-top: 10px;
 }
 
 .menu ul li 
 {
-	float: right;
+	float: left;
 	list-style: none; 
-	display: block;
 	padding: 0 0 0 50px;
 	font-weight: bold;
 	line-height: 50px;
@@ -102,41 +100,73 @@ body, html{
 
 .menu ul li img 
 {
-	width: 40px;
-	height:40px;
+	width: 20px;
+	height:20px;
 }
 
 .gotopbtn
 {
-	position: fixed;
-	width: 50px;
-	height: 60px;
-	bottom:40px;
-	right: 50px;
-
-	text-decoration: none;
-	text-align: center;
-	line-height: 50px;
-	color: #666;
-	opacity: 0.70;
-	font-size: 45px;
+	height: 0px;
+	width: 0px;
 }
 
-.gotopbtn:hover,
-.gotopbtn.active
-{
-	color: #ffb619;
-	transition: 1s all ease;
-}
 
 @media screen and (min-width: 800px)
 {
 	.pimg1, .pimg2, .pimg3
 	{
 		background-attachment: fixed;
+		height: 200px;
 
 	}
 
-}
+
+	.menu ul 
+	{
+		float: right;
+		display: flex;
+		padding-right: 20px;
+		padding-top: 10px;
+	}
+
+	.menu ul li 
+	{
+		float: right;
+		list-style: none; 
+		display: block;
+		padding: 0 0 0 50px;
+		font-weight: bold;
+		line-height: 50px;
+	}
+
+	.menu ul li img 
+	{
+		width: 40px;
+		height:40px;
+	}
+
+	.gotopbtn
+	{
+		position: fixed;
+		width: 50px;
+		height: 60px;
+		bottom:40px;
+		right: 50px;
+
+		text-decoration: none;
+		text-align: center;
+		line-height: 50px;
+		color: #666;
+		opacity: 0.70;
+		font-size: 45px;
+	}
+
+	.gotopbtn:hover,
+	.gotopbtn.active
+	{
+		color: #ffb619;
+		transition: 1s all ease;
+	}
+	}
 
 
