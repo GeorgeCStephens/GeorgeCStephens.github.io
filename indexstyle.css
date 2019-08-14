@@ -75,24 +75,24 @@ body, html{
 
 }
 .pimg1{
-	background-image: url(https://thesociallit.com/wp-content/uploads/2017/12/stylish-idea-working-desk-decoration-organize-your-work-desk-mike-leonard.jpg);
-	min-height: 100vh;
+	background-image: url(https://images.pexels.com/photos/1166602/pexels-photo-1166602.png?cs=srgb&dl=artificial-intelligence-artwork-brain-1166602.jpg&fm=jpg);
+	min-height: 70%;
 	width: 100%;
-	min-width: 350px auto;
+	min-width: 100%;
 }
 
 .pimg2{
-	background-image: url(https://images.pexels.com/photos/9044/pexels-photo.jpg?cs=srgb&dl=city-dark-lights-9044.jpg&fm=jpg);
-	min-height: 500px;
+	background-image: url(https://live.staticflickr.com/4153/5091372229_94378deb09_b.jpg);
+	min-height: 70%;
 	width: 100%;
-	min-width: 350px auto;
+	min-width: 100%;
 }
 
 .pimg3{
 	background-image: url(https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?cs=srgb&dl=architecture-buildings-city-220444.jpg&fm=jpg);
-	min-height: 500px;
+	min-height: 70%;
 	width: 100%;
-	min-width: 350px auto;
+	min-width: 100%;
 }
 
 .section{
@@ -111,7 +111,7 @@ body, html{
 	top:50%;
 	width: 100%;
 	text-align: center;
-	color: #000;
+	color: #03fcf4;
 	font-size: 32px;
 	letter-spacing: 8px;
 	text-transform: uppercase;
@@ -142,6 +142,27 @@ body, html{
 		background-attachment: fixed;
 		
 
+	}
+
+	.pimg1{
+	background-image: url(https://images.pexels.com/photos/1166602/pexels-photo-1166602.png?cs=srgb&dl=artificial-intelligence-artwork-brain-1166602.jpg&fm=jpg);
+	min-height: 100vh;
+	width: 100%;
+	min-width: 350px auto;
+	}
+
+	.pimg2{
+	background-image: url(https://live.staticflickr.com/4153/5091372229_94378deb09_b.jpg);
+	min-height: 500px;
+	width: 100%;
+	min-width: 350px auto;
+	}
+
+	.pimg3{
+	background-image: url(https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?cs=srgb&dl=architecture-buildings-city-220444.jpg&fm=jpg);
+	min-height: 500px;
+	width: 100%;
+	min-width: 350px auto;
 	}
 
 
@@ -180,15 +201,15 @@ body, html{
 		text-decoration: none;
 		text-align: center;
 		line-height: 50px;
-		color: #666;
-		opacity: 0.70;
+		color: #000;
+		opacity: 0.60;
 		font-size: 45px;
 	}
 
 	.gotopbtn:hover,
 	.gotopbtn.active
 	{
-		color: #339e01;
+		color: #03fcf4;
 		opacity: 0.60;
 		transition: 1s all ease;
 	}
