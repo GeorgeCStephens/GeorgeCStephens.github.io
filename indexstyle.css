@@ -60,6 +60,7 @@ h3 {
             padding: 0 0 0 50px;
             font-weight: bold;
             line-height: 50px;
+            color: white;
         }
 
             .menu ul li img {
@@ -68,6 +69,11 @@ h3 {
                 height: 0px;
             }
 
+            .menu ul li a {
+                text-decoration: none;
+                color: white;
+                size: 10px;
+            }
 .pimg1, .pimg2, .pimg3 {
     position: relative;
     opacity: 0.60;
@@ -79,7 +85,7 @@ h3 {
 }
 
 .pimg1 {
-    background-image: url(https://www.itl.cat/pics/b/4/45882_brain-neuron-wallpaper.jpg);
+    background-image: url(https://cdn.hipwallpaper.com/i/59/86/SkXWez.jpg);
     height: 400px;
     width: 100%;
     min-width: 100%;
@@ -107,7 +113,7 @@ h3 {
 
     .section h2 {
         border-bottom: 3px;
-        border-color: #f9a513;
+        border-color: rgb(255, 255, 255);
     }
 
 .ptext1 {
@@ -115,7 +121,7 @@ h3 {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #a33dcc;
+    color: white;
     font-size: 32px;
     letter-spacing: 8px;
     text-transform: uppercase;
@@ -218,4 +224,6 @@ h3 {
             opacity: 0.60;
             transition: 1s all ease;
         }
+
+    
 }
