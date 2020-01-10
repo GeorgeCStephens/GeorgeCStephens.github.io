@@ -69,6 +69,11 @@ h3 {
                 height: 0px;
             }
 
+             .menu ul li a {
+                text-decoration: none;
+                color: white;
+                size: 7px;
+            }
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
@@ -201,10 +206,9 @@ h3 {
             }
 
             .menu ul li a {
-                text-decoration: none;
-                color: white;
                 size: 10px;
             }
+           
 
     .gotopbtn {
         position: fixed;
