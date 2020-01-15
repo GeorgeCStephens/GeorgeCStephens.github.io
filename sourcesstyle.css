@@ -117,12 +117,17 @@ h3 {
         border-color: rgb(255, 255, 255);
     }
 
+
+.border{
+    color: blue;
+}
+
 .ptext1 {
     position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #34cfe8;
+    color: white;
     font-size: 32px;
     letter-spacing: 8px;
     text-transform: uppercase;
