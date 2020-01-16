@@ -86,7 +86,7 @@ h3 {
 }
 
 .pimg1 {
-    background-image: url(https://cdn.hipwallpaper.com/i/59/86/SkXWez.jpg);
+    background-image: url(279665.jpg);
     height: 400px;
     width: 100%;
     min-width: 100%;
@@ -236,7 +236,7 @@ h3 {
 
         .gotopbtn:hover,
         .gotopbtn.active {
-            color: #831fab;
+            color: white;
             opacity: 0.60;
             transition: 1s all ease;
         }

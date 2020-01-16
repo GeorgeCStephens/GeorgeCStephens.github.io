@@ -43,6 +43,11 @@ h3 {
     color: red;
 }
 
+.border2{
+    color: white;
+}
+
+
 .menu {
 	
     width: 100%;
@@ -89,14 +94,14 @@ h3 {
 }
 
 .pimg1 {
-    background-image: url(https://cdn.hipwallpaper.com/i/59/86/SkXWez.jpg);
+    background-image: url(279707.jpg);
     height: 400px;
     width: 100%;
     min-width: 100%;
 }
 
 .pimg2 {
-    background-image: url(https://store-images.s-microsoft.com/image/apps.51313.14431979011953174.7dbb3afe-cf6e-4f3a-82a2-8deb7aaa3fc8.0a5b729e-83e5-4a13-ab73-3068514174fb?mode=scale&q=90&h=1080&w=1920&format=jpg);
+    background-image: url(295661.jpg);
     height: 400px;
     width: 100%;
     min-width: 100%;
@@ -212,6 +217,7 @@ h3 {
                 size: 10px;
             }
 
+
     .gotopbtn {
         position: fixed;
         width: 50px;
@@ -228,10 +234,12 @@ h3 {
 
         .gotopbtn:hover,
         .gotopbtn.active {
-            color: #831fab;
+            color: white;
             opacity: 0.60;
             transition: 1s all ease;
         }
+
+
 
     
 }
