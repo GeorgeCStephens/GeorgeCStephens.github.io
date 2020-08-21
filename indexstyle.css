@@ -14,70 +14,10 @@
 
 h2 {
     font-size: 12px;
-    color: #2da00f;
+    color: blue;
 }
 
-h3 {
-    font-size: 10px;
-    color: white;
-    font-weight: 3px;
-}
-
-.nav {
-    position: fixed;
-    transition: 1s all ease;
-    float: right;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0px;
-    width: 100%;
-    height: 80px;
-    border-bottom: grey;
-}
-
-.pages ul {
-    list-style: none;
-    text-decoration: none;
-}
-
-.menu {
-	
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    top: 10px;
-    right: 40px;
-    border-bottom: grey;
-}
-
-    .menu ul {
-        float: left;
-        padding-right: 0px;
-        padding-top: 10px;
-    }
-
-        .menu ul li {
-            float: left;
-            list-style: none;
-            padding: 0 0 0 50px;
-            font-weight: bold;
-            line-height: 50px;
-            color: white;
-        }
-
-            .menu ul li img {
-                opacity: 0.8;
-                width: 0px;
-                height: 0px;
-            }
-
-            .menu ul li a {
-                text-decoration: none;
-                color: white;
-                size: 7px;
-            }
-.pimg1, .pimg2, .pimg3 {
+.pimg1{
     position: relative;
     opacity: 0.60;
     background-position: center;
@@ -88,52 +28,11 @@ h3 {
 }
 
 .pimg1 {
-    background: url(https://i.pinimg.com/originals/51/95/eb/5195ebb8c5f9772deda82aa2937134d3.jpg);
+    background: url(https://images.hdqwalls.com/wallpapers/4k-yosemite-mountains-8d.jpg);
     height: 400px;
     width: 100%;
     min-width: 100%;
 }
-
-.pimg2 {
-    background-image: url(https://store-images.s-microsoft.com/image/apps.51313.14431979011953174.7dbb3afe-cf6e-4f3a-82a2-8deb7aaa3fc8.0a5b729e-83e5-4a13-ab73-3068514174fb?mode=scale&q=90&h=1080&w=1920&format=jpg);
-    height: 400px;
-    width: 100%;
-    min-width: 100%;
-}
-
-.pimg3 {
-    background-image: url(https://guitarsquid.com/wp-content/uploads/2019/01/guitar-2875378_1920.jpg);
-    height: 400px;
-    width: 100%;
-    min-width: 100%;
-}
-
-.section {
-    text-align: center;
-    padding: 50px 80px;
-    background-color: #ede9e3;
-    height: 1000px;
-}
-
-    .section h2 {
-        border-bottom: 3px;
-        border-color: rgb(255, 255, 255);
-        
-    }
-
-    .section p {
-        float: left;
-        width: 45%;
-        height: 400px;
-        padding: 40px;
-    }
-
-    .section img {
-        float: right;
-        width: 45%;
-        height: 400px;
-    }
-
 
 
 .ptext1 {
@@ -179,7 +78,7 @@ h3 {
 }
 
 @media screen and (min-width: 800px) {
-    .pimg1, .pimg2, .pimg3 {
+    .pimg1{
         background-attachment: fixed;
     }
 
@@ -189,51 +88,9 @@ h3 {
         min-width: 350px auto;
     }
 
-    .pimg2 {
-        min-height: 500px;
-        width: 100%;
-        min-width: 350px auto;
-    }
-
-    .pimg3 {
-        min-height: 500px;
-        width: 100%;
-        min-width: 350px auto;
-    }
-
     .ptext1{
         font-size: 32px;        
     }
-
-    h3 {
-        font-size: 0px;
-    }
-
-    .menu ul {
-        float: right;
-        display: flex;
-        padding-right: 20px;
-        padding-top: 10px;
-    }
-
-        .menu ul li {
-            float: right;
-            list-style: none;
-            display: block;
-            padding: 0 0 0 50px;
-            font-weight: bold;
-            line-height: 50px;
-        }
-
-            .menu ul li img {
-                width: 40px;
-                height: 40px;
-            }
-
-            .menu ul li a {
-                size: 10px;
-            }
-
     .gotopbtn {
         position: fixed;
         width: 50px;
@@ -250,7 +107,7 @@ h3 {
 
         .gotopbtn:hover,
         .gotopbtn.active {
-            color: #2da00f;
+            color: blue;
             opacity: 0.60;
             transition: 1s all ease;
         }
