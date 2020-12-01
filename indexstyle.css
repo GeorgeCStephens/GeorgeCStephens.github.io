@@ -9,12 +9,13 @@
     transition: 2s all ease;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    background-color:#8D8D8D;
 }
 
 .section {
     text-align: center;
     padding: 50px 80px;
-    background-color: #ede9e3;
+    background-color: #8D8D8D;
 }
 
     .section h2 {
@@ -25,12 +26,12 @@
 
 h2 {
     font-size: 12px;
-    color: rgba(0, 0, 255, 0.863);
+    color: rgba(228, 177, 29, 12);
 }
 
 .pimg1, .pimg2{
     position: relative;
-    opacity: 0.60;
+    opacity: 0.85;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,7 +40,7 @@ h2 {
 }
 
 .pimg1 {
-    background: url(https://images.hdqwalls.com/wallpapers/4k-yosemite-mountains-8d.jpg);
+    background: url(https://i.redd.it/770pwjpdsgt51.png);
     height: 400px;
     width: 100%;
     min-width: 100%;
@@ -84,7 +85,7 @@ h2 {
 
 
 .pimg2 {
-    background-image: url(https://www.newegg.com/insider/wp-content/uploads/2019/02/intel-hades-canyon-multiple-monitors-thunderbolt-3-newegg-2.jpg);
+    background-image: url(https://w.wallhaven.cc/full/zx/wallhaven-zxy1dg.png);
     height: 400px;
     width: 100%;
     min-width: 100%;
@@ -142,10 +143,16 @@ h2 {
 
         .gotopbtn:hover,
         .gotopbtn.active {
-            color: blue;
+            color: rgb(228, 177, 29);
             opacity: 0.60;
             transition: 1s all ease;
         }
 
-    
+    .contact{
+	text-align:left;
+	float:left;
+	max-width: 35%;
+    background-color:#8D8D8D;
+    text-decoration: none;
+	}
 }
