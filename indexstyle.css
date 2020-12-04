@@ -92,10 +92,8 @@ h2 {
 }
 
 .pimg3 {
-    background-image: url();
-    height: 400px;
-    width: 100%;
-    min-width: 100%;
+    background-image: url(https://www.pwccenter.org/wp-content/uploads/2018/02/coffee-3047385_1920.jpg);
+    max-width:35%;
 }
 .gotopbtn {
     height: 0px;
@@ -154,5 +152,23 @@ h2 {
 	max-width: 35%;
     background-color:#8D8D8D;
     text-decoration: none;
+	}
+
+    .form-con{
+	text_align:right;
+	float:left;
+	max-width: 55%;
+	text-decoration:none;
+	}
+
+    input, textarea, select, button {
+ 	 width : 150px;
+  	padding: 0;
+  	margin: 0;
+  	box-sizing: border-box;
+	}
+
+    .pimg3{
+	float:right;
 	}
 }
