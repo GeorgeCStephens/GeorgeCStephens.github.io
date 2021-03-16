@@ -12,24 +12,27 @@
     background-color:#8D8D8D;
 }
 
-.section {
-    text-align: center;
-    padding: 50px 80px;
-    background-color: #8D8D8D;
-}
-
-    .section h2 {
-        border-bottom: 3px;
-        border-color: rgb(255, 255, 255);
+@media screen and (max-width: 1000px;){
+    .portrait {
+        width: 100%;
+        min-width: 100%;
     }
-
+    .landscape {
+        width: 100%;
+    }
+}
 
 h2 {
     font-size: 12px;
     color: rgba(228, 177, 29, 12);
 }
 
-.pimg1, .pimg2{
+h3{
+    font-size: 15px;
+    color: rgba(228, 177, 29, 12);
+    position: center;
+}
+.pimg1{
     position: relative;
     opacity: 0.85;
     background-position: center;
@@ -83,17 +86,30 @@ h2 {
     font-weight: 2px;
 }
 
-
-.pimg2 {
-    background-image: url(https://w.wallhaven.cc/full/zx/wallhaven-zxy1dg.png);
-    height: 400px;
-    width: 100%;
-    min-width: 100%;
+.AboutMe{
+    display: block;
+    width:100%;
+    border-top-style: solid;
+    border-top-color: rgba(228, 177, 29, 12);
+    border-bottom-style: solid;
+    border-bottom-color: rgba(228, 177, 29, 12);
+    height: 1050px;
+}
+.portrait{
+    float: left;
+    width: 16.4%;
+    padding: 2px;
+    margin: 0px;
+    display: block;
+    position: relative;
 }
 
-.pimg3 {
-    background-image: url(https://www.pwccenter.org/wp-content/uploads/2018/02/coffee-3047385_1920.jpg);
-    max-width:35%;
+.landscape{
+    float: left;
+    width: 47%;
+    padding: 2px;
+    margin: 0px;
+    display: flex;
 }
 .gotopbtn {
     height: 0px;
@@ -155,7 +171,7 @@ h2 {
 	}
 
     .form-con{
-	text_align:right;
+	text-align:right;
 	float:left;
 	max-width: 55%;
 	text-decoration:none;
@@ -168,7 +184,6 @@ h2 {
   	box-sizing: border-box;
 	}
 
-    .pimg3{
-	float:right;
-	}
+    
 }
+
